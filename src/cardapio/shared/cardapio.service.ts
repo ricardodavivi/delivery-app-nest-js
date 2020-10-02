@@ -1,3 +1,4 @@
+import { AppController } from './../../app.controller';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { unlinkSync } from 'fs';
@@ -23,7 +24,7 @@ export class CardapioService {
     }
 
     private getPhotoUrl(filename: string) {
-        return `http://localhost:3000/${filename}`;
+        return `${process.env.APPLICATION_URL}/${filename}`;
     }
 
     async create(cardapio: Cardapio, file: Express.Multer.File) {

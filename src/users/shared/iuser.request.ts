@@ -5,7 +5,7 @@ export interface IUserRequest {
     phone: string;
     address: {
         cep: string;
-        stret: string;
+        street: string;
         number: string;
         complement: string;
         neighborhood: string;
