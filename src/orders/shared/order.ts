@@ -11,7 +11,7 @@ export class Order extends Document {
         phone: string;
     };
     address: {
-        stret: string;
+        street: string;
         number: string;
         complement: string;
         neighborhood: string;

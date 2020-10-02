@@ -4,7 +4,7 @@ export interface IOrderRequest {
         id: string;
     };
     address: {
-        stret: string;
+        street: string;
         number: string;
         complement: string;
         neighborhood: string;

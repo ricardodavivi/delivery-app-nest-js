@@ -5,7 +5,7 @@ export class Restaurant extends Document {
     phone: string;
     open: boolean;
     cep: string;
-    stret: string;
+    street: string;
     number: string;
     complement: string;
     neighborhood: string;
