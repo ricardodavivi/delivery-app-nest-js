@@ -2213,12 +2213,12 @@
       },
       "../src/cardapio/shared/file-filter.ts": {
         "version": "61d54a7e20c773f41764ec608a7d3e94acd44bc374f4511a3a9e452d961cfeaf",
-        "signature": "b10a6c42ba39e5059d715034fc23bd23d078502a1143d1dd0138cefa391d1dcb",
+        "signature": "cc26fec818c0907b3bdd5959607bbde4dae7298e21105f1392eb26ec533d7165",
         "affectsGlobalScope": false
       },
       "../src/cardapio/shared/filename-generator.ts": {
         "version": "a5d28c01cb3f1bbb118f7ac8731af4a5020b6cf4a9bb2c37879bb973411b93ee",
-        "signature": "5d20fe75021507b5b6049228c5fa420378e6e232bfe8c64f923fde2627a340c9",
+        "signature": "39f5a96fcc12ae5e39155e6251e4179aaff17e7f8b8a2170ea792b8e423ccced",
         "affectsGlobalScope": false
       },
       "../src/cardapio/cardapio.controller.ts": {
